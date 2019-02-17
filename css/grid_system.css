@@ -1,0 +1,132 @@
+@media only screen and (max-width: 1024px) {
+	.li-box {
+		width: 100%;
+		position: relative;
+		top: 0;
+		display: block;
+		background-color: #fff;
+	}
+	.li-box > .lista > a {
+	  color: #777;
+	}
+	.li-box > .lista {
+		padding-left: 40px;
+	}
+	.li-box::before {
+		display: none;
+	}
+	figure {
+		height: 220px;
+	}
+	figcaption {
+		height: 220px;
+	}
+	.boxs>img{
+		height: 220px;
+	}
+	figcaption>.icon>span {
+		font-size: 24px;
+	}
+}
+@media only screen and (max-width: 768px) {
+	.con-left {
+		display: none;
+	}
+	.text_fj {
+	  position: absolute;
+	  right: 5px;
+	  height: 30px;
+	  top: 33px;
+	  line-height: 30px;
+	}
+	figure {
+		height: 260px;
+	}
+	figcaption {
+		height: 260px;
+	}
+	.boxs>img{
+		height: 260px;
+	}
+	figcaption>.icon {
+		margin: 30% auto;
+	}
+	figcaption>.icon>span {
+		font-size: 30px;
+	}
+}
+@media only screen and (max-width: 450px) {
+	.dis_row > .dis_list > a .img_box {
+	  height: 100px;
+	}
+	.navbar-brand {
+		font-size: 30px;
+	}
+	.navbar{
+		padding: 10px 0;
+	}
+	.text_fj {
+	    top: 22px;
+	}
+	.gs_name{
+		font-size: 16px;
+	}
+	.phone_me_box .list {
+		font-size: 14px;
+	}
+	figure {
+		height: 150px;
+	}
+	figcaption {
+		height: 150px;
+	}
+	.boxs>img{
+		height: 150px;
+	}
+	figcaption>.icon {
+		margin: 32% auto;
+	}
+	figcaption>.icon>span {
+		font-size: 22px;
+	}
+}
+@media only screen and (max-width: 330px) {
+	.test2>.name11>a{
+	  font-size: 12px;
+	}
+	.icon_right{
+		font-size: 30px;
+	}
+	.navbar-brand {
+		font-size: 28px;
+	}
+	.serve-nav {
+		padding: 0;
+	}
+	figure {
+		height: 120px;
+	}
+	figcaption {
+		height: 120px;
+	}
+	.boxs>img{
+		height: 120px;
+	}
+	figcaption>.icon{
+		width: 40px;
+		height: 40px;
+		line-height: 40px;
+	}
+	figcaption>.icon>span {
+		font-size: 20px;
+	}
+	.gs_name{
+		font-size: 16px;
+	}
+	.phone_me_box .list {
+		font-size: 13px;
+	}
+	.dis_row > .dis_list > a .img_box{
+		height: 86px;
+	}
+}
